@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0;
+    font-family: century gothic;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/background2.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+   list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    font-size: 15px;
+}
+ul li a{
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease-in-out;
+}
+ul li a:hover{
+    background-color:white;
+    color: black;
+}
+ul li.active a:visited{
+    background-color:white;
+    color: black;
+}
+.logo img{
+    margin: px;
+    padding-left: 0px;
+    float: left;
+    width: 15%;
+    height: auto;
+}
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50% ;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: white;
+    font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 63%;
+    left: 50% ;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border:1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration:none;
+}
+.btn:hover{
+    background-color:white;
+    color: black;
+    transition: 0.6s ease;
+}
+.search{
+    float: left;
+}
+.search input[type=text]{
+    padding: 4px;
+    margin-top: 25px;
+    font-size: 20px;
+    border: none;
+    font-family: century gothic;
+    background: #ddd;
+    margin-left: 16px ;
+}
+.search button{
+    padding:px;
+    padding-left: 0px;
+    margin-top: 25px;
+    font-size: 20px;
+    border: none;
+    font-family: century gothic;
+    cursor: pointer;
+}
+.search button:hover{
+    background-color:dodgerblue;
+    color:white;
+    transition: 0.6s all;
+}
+
+.button-2{
+    position: absolute;
+    top: 75%;
+    left: 50% ;
+    transform: translate(-50%,-50%);
+}
+.button-2 .btn-2:hover{
+    background-color:black;
+    color:white;
+    transition: 0.6s ease;
+}
+.btn-2{
+    text-decoration: none;
+    font-family:century gothic ;
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
